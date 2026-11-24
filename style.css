@@ -1,0 +1,173 @@
+
+
+body {
+    background-color:#050505;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header{
+
+    display: flex;
+    padding: 20px ;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#111111;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: #FF2020;
+}
+.navbar {
+     display: flex;
+    gap: 20px;
+}
+.navbar a{
+ color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.home {
+    padding: 100px 50px;
+}
+.home h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.home p{
+    font-size: 18px;
+line-height: 1.6;
+max-width: 600px;
+}
+.contact button{
+    background-color: #B00020;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.contact {
+    padding: 50px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+.footer {
+    background-color: #1a0808;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+.about {
+    padding:50px ;
+}
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+.skills {
+    padding: 50px;
+}
+.skills h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.skills ul {
+    line-height: 2;
+    font-size: 18px;
+}
+.projects{
+    padding: 50px;
+}
+.projects h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.project-card {
+    background-color: #111111;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.project-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.project-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 700px;
+}
+.education {
+    padding: 50px;
+}
+.education h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+    .education-card {
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+.education-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #FF2020;
+}
+
+
+.contact input,
+.contact textarea {
+    background-color: #111111;
+    color: white;
+    border: 1px solid #333333;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #FF2020;
+}
+
+.contact textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact button:hover {
+    background-color: #FF2020;
+    transition: 0.3s;
+}
+.project-card {
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
